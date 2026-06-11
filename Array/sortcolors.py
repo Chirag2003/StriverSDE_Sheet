@@ -31,6 +31,7 @@ def sortZeroeOneTwo(nums:list[int]) -> list[int]:
     return nums
     """
 
+    #Optimal Solution (Dutch National Flag Algorithm)
 if __name__ == "__main__":
     nums = [0, 0, 1, 2, 0, 1]
     Solution = sortZeroeOneTwo(nums)
